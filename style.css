@@ -1,0 +1,407 @@
+/* global */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+   background-color: azure;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+.container-2{
+    max-width: 1340px;
+    margin: 0 auto;
+  }
+
+
+
+/* section-1 */
+.font1{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #f8f8ff;
+}
+
+.font2{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 70px;
+    color: #f8f8ff;
+}
+
+.sec-1{
+    
+    background-image: url(/images/donation13.jpg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed;  */
+    background-size: cover;
+    height: 1230px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 180px;
+}
+
+
+.top-1{
+  padding-top: 500px;
+  
+    
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #f8f8ff;
+    font-weight: 700;
+    padding: 28px 50px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #f8f8ff;
+    background-color: #7289DA;
+    border-radius: 6px;
+    box-shadow: 2px #EDF5E1;
+    font-size: 25px;
+  }
+  
+  .btn:hover {
+    background-color: azure;
+    color: rgb(37, 37, 37);
+    font-weight: 700;
+    box-shadow: 2px 2px 1px 2px gray;
+  }
+
+/* sec-1-end */
+
+
+/* sec-2-start */
+
+
+.font3{
+    color: black;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size:45px;
+    margin-bottom: 20px;
+}
+
+
+.font4{
+    color: #707070;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+    padding-bottom: 80px;
+}
+
+.dollar ul{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dollar ul li{
+    
+    display: inline-block;
+    border-radius: 10px;
+    padding: 60px;
+    color: #707070;
+    font-weight: 900;
+    font-size: 30px;
+    background-color: rgb(203, 216, 216);
+    cursor: pointer;
+    
+    
+
+}
+
+.input-text{
+    text-decoration: none;
+    background-color: azure;
+    border: 0px;
+    border-bottom: 1px groove rgba(240, 233, 233, 0.192);
+    text-align: center;
+    padding: 10px 400px;
+    font-size: 20px;
+
+}
+
+.top-3{
+   text-align: center;
+   padding: 90px 0 50px 0;
+  
+}
+
+.top-4{
+    text-align: center;
+    margin-bottom: 230px;
+}
+/* sec-2-end */
+
+
+
+/* sec-3-start */
+
+
+.top-5{
+    text-align: center;
+}
+
+.font5{
+    color: black;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size:45px;
+    margin-bottom: 20px;
+}
+
+
+.font6{
+    color: #707070;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+    padding-bottom: 80px;
+}
+
+
+
+
+.font7{
+    color: black;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+    font-size:25px;
+    padding: 20px 0px 16px 26px;
+   
+}
+
+
+.font8{
+    color: #707070;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 20px 0px 20px 26px;
+  
+}
+
+
+
+.icon-img{
+    height: 53px;
+    width: 53px;
+    padding: 50px 0px 26px 26px;
+    text-align: center;
+   
+}
+
+.plan-1{
+    width: 360px;
+    height: 352px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+
+.plan-2{
+    align-items: center;
+    width: 360px;
+    height: 352px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+.plan-3{
+    width: 360px;
+    height: 352px;
+    background: #FFF4D6;
+    border-radius: 5px;
+}
+
+.donate-plan{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+
+/* sec-3-end */
+
+
+
+
+/* sec-4/5-start */
+
+.font9{
+    color: black;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+    font-size:45px;
+    padding: 20px ;
+   
+}
+
+
+.font10{
+    color: #707070;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 20px;
+    margin-bottom: 30px;
+  
+}
+
+
+.btn2 {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #f8f8ff;
+    font-weight: 700;
+    margin: 0px 0px 0px 20px;
+    padding: 20px 15px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #f8f8ff;
+    background-color: #FF5959;
+    border-radius: 6px;
+    box-shadow: 2px #EDF5E1;
+    font-size: 2opx;
+  }
+  
+  .btn2:hover {
+    background-color: azure;
+    color: rgb(37, 37, 37);
+    font-weight: 700;
+    box-shadow: 2px 2px 1px 2px gray;
+  }
+
+  .donation-img{
+    width: 625px;
+    height: 550px;
+    border-radius: 10px;
+  }
+.who-to-contribute{
+    margin-top: 80px;
+}
+
+.who-to-contribute-2{
+    margin: 90px 0 350px 0;
+    padding-left: 80px;
+
+    
+}
+  .sec-4{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+/* sec-4/5-end */
+
+/* sec-6-start */
+
+
+.sec-6{
+    margin-bottom: 250px;
+}
+.from{
+    border: 4px solid rgb(196, 192, 192);
+    text-align: center ;
+    border-radius: 10px;
+    padding: 30px;
+    
+}
+
+.from-label{
+    text-align: center;
+    color: black;
+    font-family: serif;
+    font-size:25px;
+    padding: 20px ;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 1000;
+}
+
+.input-text{
+    text-align: center;
+    background-color: rgba(237, 248, 253, 0.986);
+    outline: none;
+    border-radius: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    
+    
+}
+
+.checkbox1{
+    margin-top: 20px;
+}
+.sgin-up-button{
+    margin: 20px 0 20px 0;
+}
+
+.button {
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 0.9;
+    border-radius: 10px;
+  }
+.button2 {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 0.9;
+    border-radius: 10px;
+  }
+/* sec-6-end */
+
+/* footer-start */
+
+
+.footer{
+   background-color: black;
+}
+.footer-logo{
+    text-align: center;
+    color: rgb(80, 220, 255);
+    font-family: serif;
+    font-size:40px;
+    padding: 20px ;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+    padding-top: 50px;
+}
+
+.footer-text{
+    text-align: center;
+    color: azure;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
